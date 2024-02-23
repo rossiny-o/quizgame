@@ -1,4 +1,5 @@
-import "./page.css"
+import "./global.css"
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -20,18 +21,17 @@ export default function Home() {
       <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
        
 
-        <a
-          href="./pages/playerSelect.js"
+        <Link
+          href="/selectlevel"
           className="group rounded-lg border border-gray-700  m-3 px-3 py-2 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
+        
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
             Start game{" "}
            
           </h2>
          
-        </a>
+        </Link>
 
         <a
           href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
