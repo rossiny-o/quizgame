@@ -1,4 +1,4 @@
-import "./pages/playerSelect.js"
+import "./page.css"
 
 export default function Home() {
   return (
