@@ -7,7 +7,7 @@ export default function selectlevel() {
 
   return (
     <div className="container mx-auto py-10">
-      <h2>Select level</h2>
+      <h2>Select level | <strong className={"text-red-500 uppercase"}>Kev was here!</strong></h2>
 
       <div className="mx-auto flex flex-wrap gap-x-1">
         {level.map((lvl) => {
